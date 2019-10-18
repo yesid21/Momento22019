@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/', function (req, res) {
-  res.json({
+  res.json({  
       'mensaje' : 'Bienvenido A Este Sitio Cuya Finalidad Es Aprender E Invitar A Estudiar Node.js Con MongoDB'
     })
 });
